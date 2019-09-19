@@ -6,7 +6,7 @@ This project provides the source code of the popular HWIDGEN Windows activation 
 ## Discussion
 A public discussion around the source code can be found [here](https://old.reddit.com/r/Piracy/comments/d654al/contribution_hwidgen_source_code/). 
 
-The official developer provides support for his tool at Nsane/AiOwares forums, the topics are (not anymore) visible to the public and requires an active membership. A public mirror can be found [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/).
+The official developer provides support for his tool at Nsane (hidden)/[AiOwares forums](https://www.aiowares.com/showthread.php?tid=246) (read-only). A public hwidgen mirror can be found [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/).
 
 
 ## Contributing
@@ -27,16 +27,19 @@ This project has no real license (unlicensed) since I'm not the original develop
 
 
 ## Project Goal
-* Releasing the full source code of HWIDGEN.
+* Opening and realasing the full source code of HWIDGEN.
+* Provide an archive/changelog.
+* Provide a full documentation on how HWIDGEN really works.
 * Provide compiler & decompiler instructions.
 * List & show external dependencies which are required by HWIDGEN.
 
 
 ## Dependencies
 HWIDGEN requires several dependencies to run:
-* gatherosstate
+* Windows 10
+* gatherosstate (can be extracted from the Windows 10 Image)
 * slc
-* AutoHotKey
+* AutoHotKey ("compiler")
 
 
 ## Why isn't the original HWIDGEN tool open source'd?
