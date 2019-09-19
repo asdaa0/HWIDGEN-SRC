@@ -1,17 +1,19 @@
 # HWIDGEN Souce Code
 
-This project provides the source code of the popular HWIDGEN Windows activation "tool" which basically is an AutoHotKey script compiled as .exe binary. 
+This project provides the source code of the popular HWIDGEN Windows activation "tool" which basically is an AutoHotKey script compiled into an .exe binary. 
 
 
 ## Discussion
 A public discussion around the source code can be found [here](https://old.reddit.com/r/Piracy/comments/d654al/contribution_hwidgen_source_code/). 
 
-The official developer provides support for his tool at Nsane (hidden)/[AiOwares forums](https://www.aiowares.com/showthread.php?tid=246) (read-only). A public hwidgen mirror can be found [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/).
+The official developer provides support for his tool at [Nsane forums](https://www.nsaneforums.com/topic/312871-windows-10-digital-license-hwid-generation-without-kms-or-predecessor-installupgrade) (hidden) and [AiOwares forums](https://www.aiowares.com/showthread.php?tid=246) (read-only). 
+
+A public hwidgen mirror to the latest version can be found over [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/) or at MDL forums.
 
 
 ## Contributing
-* Do not abuse GitHub's issue ticket for any basic discussion, otherwise I'm going to close it!
-* Constructive feedback is welcome.
+* Do not abuse GitHub's issue ticket for any basic discussion, otherwise I'm going to close it! For common questions use reddit, MDL, nsane or AiOwares
+* Constructive feedback is always welcome.
 
 
 ## Credits
@@ -23,13 +25,13 @@ The official developer provides support for his tool at Nsane (hidden)/[AiOwares
 
 
 ## License
-This project has no real license (unlicensed) since I'm not the original developer of "HWIDGEN". HWIDGEN-SRC only provides the information and the files to show how the script works and how Microsoft license verification is been bypassed.
+This project has no real license ([unlicensed](https://github.com/CHEF-KOCH/HWIDGEN-SRC/blob/master/LICENSE)) since I'm not the original developer of "HWIDGEN". HWIDGEN-SRC only provides the information and the files to show how the script works and how Microsoft license verification is been bypassed.
 
 
 ## Project Goal
 * Opening and realasing the full source code of HWIDGEN.
 * Provide an archive/changelog.
-* Provide a full documentation on how HWIDGEN really works.
+* Provide a full documentation on how HWIDGEN works.
 * Provide compiler & decompiler instructions.
 * List & show external dependencies which are required by HWIDGEN.
 
