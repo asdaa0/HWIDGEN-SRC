@@ -70,11 +70,11 @@ Gui Add, Tab2,           x4      y2      w671    h395    +Theme, GENERATION
 Gui Font
 }
 Gui Font, s8, Arial
-Gui, Add, Text,             x22     y30     w40     h12,    INFO:
+Gui, Add, Text,             x22     y30     w40     h12,	INFO:
 Gui, Add, Text,             x72     y30     w100    h12     gLaunchAIOWares, AiOwares.com
-Gui, Add, Text,             x155    y30     w40     h12,    ||
+Gui, Add, Text,             x155    y30     w40     h12,	||
 Gui, Add, Text,             x175    y30     w110    h12     gLaunchNsane, NsaneForums.com
-Gui, Add, Text,             x465    y30     w80     h12,    Work Mode:
+Gui, Add, Text,             x465    y30     w80     h12,	Work Mode:
 Gui, Add, DropDownList,     x545    y25     w114            vMode,LicenseSwitch|SetOffline|SetOnline|Rearm|Clean|Clean_ClipSVC|gVLK|HWID_Key|KMS38|HWID|INFO||
 Gui, Add, Button,           x22     y350    w114    h24     Default gPatch, START
 Gui, Add, Edit,             x23     y58     w636    h280    vLogF Readonly HwndhOut
