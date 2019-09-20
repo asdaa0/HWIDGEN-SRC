@@ -43,12 +43,18 @@ HWIDGEN requires several dependencies to run:
 * slc
 * AutoHotKey ("compiler")
 
+## Why should HWIDGEN be open source'd?
+* **Preventing fakes (malware)**, one popular example is dazloader. It got thousend times repacked, and people even created "fan" websites. Some people even "frankensteined" Windows Builds with it and sold them on eBay just to make some quick cash.
+* **Hosting such tools on e.g. GDrive is against their ToS** - The reason why the packages are always been password protected (with very weak passwords). However, the content provider still could get the program name and index it, not based on a hash, but because the name itself.
+* **Verification** - You don't need to upload the files and fear they getting removed, if everyone just could go ahead and compile them. This would also prevent fakes because everyone could verify the binaries.
+* **Fixes** - Some people might want to re-write parts or the entire tool to improve several things.
+
 
 ## Why isn't the original HWIDGEN tool open source'd?
 
-**Notice:** - The strange part is that slave releases his source for his other tools on [GitLab](https://gitlab.com/s1ave77). - 
+**Notice:** - The strange part is that slave releases his source for his other ~~tools~~ scripts on [GitLab](https://gitlab.com/s1ave77). - 
 
-There are multiple reasons, the original author slave has another opinion on open sourcing programs than I have. He believes keeping the source closed will prevent people from stealing his work. Keep in mind that I do not stole his work here, I just provide the code because refused it (many times) to open and he got several times asked (e.g. on Reddit, Nsane,..) to realease it, yet he (still) refuses to do that, so let's decompile it and show the world how his script works. 
+There are multiple reasons, the original author slave has another opinion on open sourcing programs than I have. He believes keeping the source closed will prevent people from stealing his work. Keep in mind that I do not stole his work here, I just provide the code because he refused it (many times) to open it and he got several times asked (e.g. on Reddit, Nsane,..), yet he (still) refuses to do that, so let's decompile it and show the world how his script works. 
 
 ### Personal comment
 I believe publishing the source code is overall a good thing for everyone because it levels the playing field. White hats, "cracker" or other people want to know about the current Windows activation holes and I don''t think that ["security through obscurity"](https://en.wikipedia.org/wiki/Security_through_obscurity) is the way to go. Most people simply want to learn from Windows exploits/holes. It also helps to find new strategies and holes in case Microsoft modifies/patches something.
