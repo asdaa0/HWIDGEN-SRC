@@ -1,6 +1,6 @@
 # HWIDGEN Souce Code
 
-This project provides the source code of the popular HWIDGEN Windows activation "tool" which basically is an AutoHotKey script compiled into an .exe binary. 
+This project provides the source code of the popular HWIDGEN Windows activation "tool" which basically is only an AutoHotKey script compiled into an .exe binary. 
 
 
 ## Discussion
@@ -12,8 +12,8 @@ A public hwidgen mirror to the latest version can be found over [here](https://o
 
 
 ## Contributing
-* Do not abuse GitHub's issue ticket for any basic discussion, otherwise I'm going to close it! For common questions use reddit, MDL, nsane or AiOwares
-* Constructive feedback is always welcome.
+* Please don't abuse GitHub's issue ticket system for any basic questions, otherwise I'm going to close it! For common questions check Reddit, MDL, Nsane or AiOwares forums.
+* Constructive feedback is (of course) always welcome.
 
 
 ## Credits
@@ -21,11 +21,13 @@ A public hwidgen mirror to the latest version can be found over [here](https://o
 * All contributors for this project which helped to reveal the source code or to provide some useful background information, pull requests. 
 * The people (including me) which originally worked on the first 'KMS solution'. KMS Pico was not the original project, but got very popular because it got published on a bigger russian website.
 * avxgov which contributed (a lot) to the original HWIDGEN project.
-* Cynecx for the SECO Injector.
+* The community around hwidgen, which helped a lot to improve it (bug reports, feedback - you name it).
 
 
 ## License
-This project has no real license ([unlicensed](https://github.com/CHEF-KOCH/HWIDGEN-SRC/blob/master/LICENSE)) since I'm not the original developer of "HWIDGEN". HWIDGEN-SRC only provides the information and the files to show how the script works and how Microsoft license verification is been bypassed.
+This project has no real license ([unlicensed](https://github.com/CHEF-KOCH/HWIDGEN-SRC/blob/master/LICENSE)) since I'm not the original developer of "HWIDGEN". 
+
+The HWIDGEN-SRC project only provides the information and the files to show how the script actually works and how Microsoft license verification is been _bypassed_.
 
 
 ## Project Goal
@@ -44,7 +46,7 @@ HWIDGEN requires several dependencies to run:
 * AutoHotKey ("compiler")
 
 ## Why should HWIDGEN be open source'd?
-* **Preventing fakes (malware)**, one popular example is dazloader. It got thousend times repacked, and people even created "fan" websites. Some people even "frankensteined" Windows Builds with it and sold them on eBay just to make some quick cash.
+* **Preventing fakes (malware repacks)**, one popular example is dazloader. It got thousend times repacked, and people even created "fan" websites. Some people even "frankenstein'ed" Windows Builds and sold them via eBay just to make some quick cash.
 * **Hosting such tools on e.g. GDrive is against their ToS** - The reason why the packages are always been password protected (with very weak passwords). However, the content provider still could get the program name and index it, not based on a hash, but because the name itself.
 * **Verification** - You don't need to upload the files and fear they getting removed, if everyone just could go ahead and compile them. This would also prevent fakes because everyone could verify the binaries.
 * **Fixes** - Some people might want to re-write parts or the entire tool to improve several things.
@@ -57,7 +59,9 @@ HWIDGEN requires several dependencies to run:
 There are multiple reasons, the original author slave has another opinion on open sourcing programs than I have. He believes keeping the source closed will prevent people from stealing his work. Keep in mind that I do not stole his work here, I just provide the code because he refused it (many times) to open it and he got several times asked (e.g. on Reddit, Nsane,..), yet he (still) refuses to do that, so let's decompile it and show the world how his script works. 
 
 ### Personal comment
-I believe publishing the source code is overall a good thing for everyone because it levels the playing field. White hats, "cracker" or other people want to know about the current Windows activation holes and I don''t think that ["security through obscurity"](https://en.wikipedia.org/wiki/Security_through_obscurity) is the way to go. Most people simply want to learn from Windows exploits/holes. It also helps to find new strategies and holes in case Microsoft modifies/patches something.
+I believe publishing the source code is overall a good thing for everyone because it levels the playing field. White hats, "cracker" or other people want to know about the current Windows activation holes and I don''t think that ["security through obscurity"](https://en.wikipedia.org/wiki/Security_through_obscurity) is the way to go. 
+
+Most people simply want to learn from Microsoft Windows exploits & holes. It also helps to find new strategies and other holes in case Microsoft decides to modify/patch something.
 
 Several attempts have been made to open source (fork) hwidgen, e.g. [DigitalLicense](https://github.com/ARAlex143/activator) script.
 
