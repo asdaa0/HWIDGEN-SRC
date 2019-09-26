@@ -12,6 +12,17 @@ Basically:
 The activation process will only be performed once per each single machine, Windows 10 then gets activated/converted from a MSDN license (in case it was detected e.g. in case a product key was found - Retail/embedded BIOS) to a Digital License in order to activate the OS. 
 
 
+## Files
+* `GATHEROSSTATE.EXE`: Taken from the official MS ISO.
+* `GATHEROSSTATELTSB15.EXE` Also taken from official LTSB image.
+* `hwid.kms38.gen.mk6.exe` the (latest) HWIDGEN version (closed source)
+* `HWIDGEN-source.ahk`: Basically the heart of HWIDGEN tool, it provides the entire source code.
+* `LIC.SWITCHER.EXE`: Basically the upper layer which checks the Windows version, installed key and allows you to manually switch the Windows license. Once the utility is manually started it will create (in the same dir as the executable is) a debug file called `LIC_SWITCH.log`.
+* `PID8.VBS` is a Visual Basic script which checks the OS HWID status and matches the key with a pre-configured keylist. 
+* `PKCONFIG.TXT` Stores all official Windows versions (except some homebrew SKUs).
+* [SLSHIM](https://github.com/vyvojar/slshim/releases) `SLSHIM32_AIO.DLL` is a modified version which works on x86 & x64 versions. The original project compiles the .dll based on the OS, slshim32.dll for x86 and slshim64.dll for x64 ISOs.
+* `WARNH.EXE` & `WARNK.EXE` are basically the same, it outputs a "warning popup", which tells you that your Windows version is not genuine. The H version represents HWID and the K version is for KMS38 activation methods.
+
 ## Is the tool "hwidgen" a legal activation method?
 
 It's a **gray-zone**. The tool itself is against Microsoft Windows 10 ToS, however the used methods are controversial and theoretically legal because they are not hacking, manipulating any official Windows files or altering official servers.
@@ -72,6 +83,26 @@ The tool offers several "Working Modes" in order to activate Windows 10.
 The "Manual method" (not recommend) isn't visible via GUI, it's a fallback. This is for advance users or people which work with a slipstream'ed Windows 10 version. It's documented over [here](https://www.aiowares.com/showthread.php?tid=246).
 
 
+## Resetting the status
+```bash
+reg add "HKLM\SYSTEM\Tokens" /v "Channel" /t REG_SZ /d "Retail" /f
+reg add "HKLM\SYSTEM\Tokens\Kernel" /v "Kernel-ProductInfo" /t REG_DWORD /d XXX /f
+reg add "HKLM\SYSTEM\Tokens\Kernel" /v "Security-SPP-GenuineLocalStatus" /t REG_DWORD /d 1 /f
+```
+
+```bash
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens]
+"Channel"="Retail"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"Kernel-ProductInfo"=dword:0000XXX
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Tokens\Kernel]
+"Security-SPP-GenuineLocalStatus"=dword:00000001
+```
+
 ## Already activated Windows 10 system
 
 The program will also work - after manually selecting "Work Mode" - on already activated systems (e.g. MSToolKit). This is for users who like to _"upgrade"_ their activation method since HWIDGEN provides some benefits over other methods.
@@ -127,6 +158,11 @@ HWID (Hardware ID) is a permanent digital license activation tied to your mother
 
 The tool performs several system checks and may need a moment to appear (depending on your system specs). This is normal and you don't need to be worried, it checks your registry, your current activation status among other things.
 
+### Error screens
+
+`WARNK.EXE` & `WARNN.EXE` are responsible for the error screens and are only visible as feedback in case something went wrong. 
+
+
 ### Microsoft account sign-in
 
 You do not need to have an Microsoft Accounts added in your Windows settings, nor do you not need to be signed into an online Microsoft account on your PC for the process to work. Assigning an account is totally optional and meant to backup your license status. 
@@ -138,3 +174,7 @@ It's possible that you can "slipstream" the tool into an Windows Image. However,
 
 _Pre-cracked_ Windows 10 builds (Frankenstein builds) are often been sold by "dark pirates" - Microsoft does not sell any pre-activated images to customers on eBay or other platforms. In most cases such people want to make some quick cash.
 
+
+### Firewall warning
+
+You see a fake firewall warning, which points you to `wmiprvse.exe`, you can ignore it. The IP which HWIDGEN uses is just a dummy address.
