@@ -20,8 +20,9 @@ A public hwidgen mirror to the latest version can be found over [here](https://o
 * The main credit goes to the original author of HWIDGEN - slave (aka s1ave77). 
 * All contributors for this project which helped to reveal the source code or to provide some useful background information, pull requests. 
 * The people (including me) which originally worked on the first 'KMS solution'. KMS Pico was not the original project, but got very popular because it got published on a bigger russian website.
-* avxgov which contributed (a lot) to the original HWIDGEN project.
-* The community around hwidgen, which helped a lot to improve it (bug reports, feedback - you name it).
+* Avxgov which contributed (a lot) to the original HWIDGEN project.
+* The community around hwidgen, which helped a lot to improve it (bug reports, feedback - you name it!).
+* TheMCHK for the [reddit post][https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/)
 
 
 ## License
