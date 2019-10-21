@@ -8,7 +8,7 @@ A public discussion around the source code can be found [here](https://old.reddi
 
 The official developer provides support for his tool at [Nsane forums](https://www.nsaneforums.com/topic/312871-windows-10-digital-license-hwid-generation-without-kms-or-predecessor-installupgrade) (hidden) and [AiOwares forums](https://www.aiowares.com/showthread.php?tid=246) (read-only). 
 
-A public hwidgen mirror to the latest version can be found over [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/). 
+A public hwidgen mirror to the latest version can be found over [here](https://old.reddit.com/r/sjain_guides/comments/9qyuij/hwidkms38genmk6_download_and_usage_guide/), an unofficial support thread is avbl. over [here](https://www.reddit.com/r/Piracy/comments/d654al/contribution_hwidgen_source_code). 
 
 
 ## Contributing
