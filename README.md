@@ -17,12 +17,12 @@ A public hwidgen mirror to the latest version can be found over [here](https://o
 
 
 ## Credits
-* The main credit goes to the original author of HWIDGEN - slave (aka s1ave77). 
+* The main credit goes to the original author of HWIDGEN which is slave (a.k.a. s1ave77). 
 * All contributors for this project which helped to reveal the source code or to provide some useful background information, pull requests. 
 * The people (including me) which originally worked on the first 'KMS solution'. KMS Pico was not the original project, but got very popular because it got published on a bigger russian website.
 * Avxgov which contributed (a lot) to the original HWIDGEN project.
 * The community around hwidgen, which helped a lot to improve it (bug reports, feedback - you name it!).
-* TheMCHK for the [reddit post][https://www.reddit.com/r/sjain_guides/comments/aviidg/support_thread_2_ask_questions_here/)
+* TheMCHK for his [reddit post](https://www.reddit.com/r/Piracy/comments/d654al/contribution_hwidgen_source_code).
 
 
 ## License
@@ -42,9 +42,9 @@ The HWIDGEN-SRC project only provides the information and the files to show how 
 ## Dependencies
 HWIDGEN requires several dependencies to run:
 * Windows 10
-* gatherosstate (can be extracted from the Windows 10 Image)
+* gatherosstate (_can be extracted from the Windows 10 Image_)
 * slc
-* AutoHotKey ("compiler")
+* [AutoHotKey](https://www.autohotkey.com) (AHK)
 
 ## Why should HWIDGEN be open source'd?
 * **Preventing fakes (malware repacks)**, one popular example is dazloader. It got thousend times repacked, and people even created "fan" websites. Some people even "frankenstein'ed" Windows Builds and sold them via eBay just to make some quick cash.
