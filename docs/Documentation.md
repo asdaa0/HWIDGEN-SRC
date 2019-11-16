@@ -18,7 +18,7 @@ The activation process will only be performed once per each single machine, Wind
 * `hwid.kms38.gen.mk6.exe` the (latest) HWIDGEN version (closed source)
 * `HWIDGEN-source.ahk`: Basically the heart of HWIDGEN tool, it provides the entire source code.
 * `LIC.SWITCHER.EXE`: Basically the upper layer which checks the Windows version, installed key and allows you to manually switch the Windows license. Once the utility is manually started it will create (in the same dir as the executable is) a debug file called `LIC_SWITCH.log`.
-* `PID8.VBS` is a Visual Basic script which checks the OS HWID status and matches the key with a pre-configured keylist. 
+* `PID8.VBS` is a Visual Basic script which checks the OS HWID status and matches the key with a pre-configured key list. 
 * `PKCONFIG.TXT` Stores all official Windows versions (except some homebrew SKUs).
 * [SLSHIM](https://github.com/vyvojar/slshim/releases) `SLSHIM32_AIO.DLL` is a modified version which works on x86 & x64 versions. The original project compiles the .dll based on the OS, slshim32.dll for x86 and slshim64.dll for x64 ISOs.
 * `WARNH.EXE` & `WARNK.EXE` are basically the same, it outputs a "warning popup", which tells you that your Windows version is not genuine. The H version represents HWID and the K version is for KMS38 activation methods.
@@ -50,16 +50,16 @@ The original developer [mentions which activation method is used under which SKU
 Core (Home) (N) (HWID/KMS38)
 CoreSingleLanguage (N) (HWID/KMS38)
 Professional (N) (HWID/KMS38)
-ProfessionalEducation (N) (HWID/KMS38)
-ProfessionalWorkstation (N) (HWID/KMS38)
+Professional Education (N) (HWID/KMS38)
+Professional Workstation (N) (HWID/KMS38)
 Education (N) (HWID/KMS38)
 Enterprise (N) (HWID/KMS38)
 EnterpriseS  (N) 2015(HWID)
 EnterpriseS (N) 2016 (HWID/KMS38)
 EnterpriseS  (N) 2019 (KMS38)
-ServerStandard(Core) (N) (KMS38)
-ServerDatacenterCore) (N) (KMS38)
-ServerSolution(Core) (N) (KMS38)
+Server Standard(Core) (N) (KMS38)
+Server DatacenterCore) (N) (KMS38)
+Server Solution(Core) (N) (KMS38)
 ```
 
 
@@ -133,7 +133,7 @@ KMS stands for Key Management System, basically how the system works is, that it
 * KMS was officially introduced with Windows XP.
 * KMS is a legitimate Microsoft service heavily used in enterprise or education environments.
 * "KMS piracy" is usually redirected to a fake KMS server which will always return a positive response. 
-* You can create your own KMS server (the images are avbl.) however running a server is against Windows TOS because it bypasses the original activation process which is only done by official Microsoft KMS server.
+* You can create your own KMS server (the images are available) however running a server is against Windows TOS because it bypasses the original activation process which is only done by official Microsoft KMS server.
 
 
 #### KMS(38)
@@ -178,3 +178,9 @@ _Pre-cracked_ Windows 10 builds (Frankenstein builds) are often been sold by "da
 ### Firewall warning
 
 You see a fake firewall warning, which points you to `wmiprvse.exe`, you can ignore it. The IP which HWIDGEN uses is just a dummy address.
+
+
+## Can I uninstall HWIDGEN?
+
+**Yes**, you can because the digital activation is not embedded in the Windows installation. The activation relies on your machine code and communication with the MS Servers, whenever Windows tries to connect/validate the status e.g. via MS Account. If you install your Windows Image to another machine it will not be digitally activated and you can (_of course_) use a legit Windows key.
+
