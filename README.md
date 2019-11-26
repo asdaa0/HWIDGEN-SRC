@@ -17,7 +17,8 @@ A public hwidgen mirror to the latest version can be found over [here](https://o
 
 
 ## Credits
-* The main credit goes to the original author of HWIDGEN which is slave (a.k.a. s1ave77). 
+* The main credit goes to the original author Mspaintmsi and Anonymous, for HWID and KMS38.
+* HWIDGEN GUI itself came from slave (a.k.a. s1ave77). 
 * All contributors for this project which helped to reveal the source code or to provide some useful background information, pull requests. 
 * The people (including me) which originally worked on the first 'KMS solution'. KMS Pico was not the original project, but got very popular because it got published on a bigger russian website.
 * Avxgov which contributed (a lot) to the original HWIDGEN project.
