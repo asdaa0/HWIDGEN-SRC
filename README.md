@@ -2,7 +2,7 @@
 
 This project provides the source code of the popular HWIDGEN Windows activation "tool" which basically is only an AutoHotKey script compiled into an .exe binary. 
 
- s1ave77 [left MDL on his own terms](https://forums.mydigitallife.net/threads/kms38.80015/#post-1538193).
+ s1ave77 [left MDL on his own terms](https://forums.mydigitallife.net/threads/kms38.80015/#post-1538193), he takes a break.
 
 ## Discussion
 A public discussion around the source code can be found [here](https://old.reddit.com/r/Piracy/comments/d654al/contribution_hwidgen_source_code/). 
